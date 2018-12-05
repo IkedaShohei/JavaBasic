@@ -1,12 +1,12 @@
+package practice;
 
-public class Practice5 {
+public class Practice3 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		double total;
-		total = 10.5;
-		total *= 10;
-		System.out.println(total);
+		double PI;
+		PI = 3.14;
+		System.out.println(PI);
 	}
 
 }
