@@ -8,13 +8,21 @@ package practice17.ptra17;
 
 public class PTra17_04 {
 	public static void main(String[] args) {
-
 		String str = "スッキリわかるJava入門";
 
 		/*
 		 * ★ strに入っている文字列を1文字ずつゆっくり表示させるプログラムを完成させてください
 		 * ※ Thread.sleep を使用すること
 		 */
+		char[] array = str.toCharArray();
+		for (int i = 0; i < str.length(); i++) {
+			System.out.print(array[i]);
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				/* エラーが発生した場合はここにくる */
 
+			}
+		}
 	}
 }
