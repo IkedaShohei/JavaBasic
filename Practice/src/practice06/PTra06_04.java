@@ -17,7 +17,7 @@ public class PTra06_04 {
 		 */
 		System.out.println("-----------------------------------");
 
-		for(int i = 1;1 <= i && i <=5;i++) {
+		for(int i = 0;i < 5;i++) {
 			System.out.print("■");
 		}
 

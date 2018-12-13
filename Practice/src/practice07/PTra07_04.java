@@ -18,7 +18,7 @@ public class PTra07_04 {
 		}
 
 		// ★ 0～51の中からランダムで値を取得して、変数indexに代入してください
-		int index = new java.util.Random().nextInt(trump.length);
+		int index = new java.util.Random().nextInt(trump.length/**ここは52でも可**/);
 
 		// ★ 配列trumpのindex番目の中に入っている数字を出力してください
 		System.out.println(trump[index]);

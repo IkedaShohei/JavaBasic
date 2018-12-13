@@ -24,7 +24,10 @@ public class PTra07_06 {
 				count++;
 			}
 		}
-		System.out.println(sum/count);
+
+		System.out.println("合計値：" + sum);
+		System.out.println("値数：" + count);
+		System.out.println("平均" + sum/count);
 
 	}
 }
